@@ -23,9 +23,21 @@
     border: 5px solid white;
 }
 
+.info-trabajo2 img {
+    width: 180px;
+    height: 180px;
+    border-radius: 0% 50%;
+    border: 5px solid white;
+}
+
 @media (min-width:480px) {
     .info-trabajo {
         width: 40%;
+    }
+
+    .info-trabajo2 {
+        width: 50%;
+        padding-left: 15px;
     }
 }
 
@@ -33,4 +45,14 @@
     .info-trabajo {
         width: auto;
     }
+
+    .info-trabajo2 {
+        height: 365px;
+        width: 465px;
+    }
+}
+
+div .info-trabajo2 {
+    padding-top: 22px;
+    padding-bottom: 20px;
 }
