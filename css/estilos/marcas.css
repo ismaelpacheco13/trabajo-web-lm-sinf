@@ -3,11 +3,19 @@
     color: black;
     text-align: center;
     padding: 20px;
+    padding-top: 50px; /*Para arreglar la posición a la que te redirecciona desde el nav-bar sin influir en la página*/
+    margin-top: -50px;
+}
+
+#clickmarcas {
+    margin-top: -25px;
+    color: rgba(0, 0, 0, 0.658);
 }
 
 .info-marcas a {
     text-decoration: none;
     color: black;
+    font-size: 30px;
 }
 
 .lista {
@@ -17,6 +25,18 @@
 
 .lista a {
     text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.cuadro {
+    background: #333;
+    border-radius: 5%;
+    padding: 20px;
+}
+
+.cuadro li {
+    font-size: 20px;
+    padding: 2px;
 }
 
 #marcas .contenedor { /*el problema es del flex-box del contenedor, tengo que conseguir que las marcas sin foto no esten dentro del flex-box*/
@@ -47,4 +67,13 @@
     .info-trabajo {
         width: auto;
     }
+}
+
+.lista ul {
+    -moz-column-count: 2;
+    -moz-column-gap: 95px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 95px;
+    column-count: 2;
+    column-gap: 95px;
 }
