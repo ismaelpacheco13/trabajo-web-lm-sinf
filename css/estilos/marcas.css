@@ -20,7 +20,7 @@
 
 .lista {
     margin: 30px;
-    padding: 10px;
+    padding: 0px;
 }
 
 .lista a {
@@ -75,5 +75,5 @@
     -webkit-column-count: 2;
     -webkit-column-gap: 95px;
     column-count: 2;
-    column-gap: 95px;
+    column-gap: 55px;
 }
